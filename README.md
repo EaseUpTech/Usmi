@@ -1,1 +1,1 @@
-Make ease for evryone by Usman
+Make ease for everyone by Usman
