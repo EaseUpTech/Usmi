@@ -1,0 +1,70 @@
+//Add class into blog pages
+setTimeout(() => { 
+$(document).ready(function(){
+$('#shopify-section-template--16159268405474__main').addClass('first-blog-template');
+$('#shopify-section-template--16500429750498__main').addClass('second-blog-template');
+
+//first blog page
+$('.first-blog-template .blog-articles__article:nth-child(1)').click(function(){
+  window.location = 'https://www.haaretz.co.il/literature/2022-09-14/ty-article-review/.premium/00000183-366e-dd90-a1ab-bf7e20c30000?utm_source=App_Share&utm_medium=iOS_Native'});
+  
+$('.first-blog-template .blog-articles__article:nth-child(2)').click(function(){
+  window.location = 'https://www.ynet.co.il/laisha/article/skko2ntgs'});
+   
+$('.first-blog-template .blog-articles__article:nth-child(3)').click(function(){
+  window.location = 'https://www.e-vrit.co.il/AuthorInterviewItem/271/%D7%A0%D7%99%D7%9C%D7%99_%D7%90%D7%A1%D7%99%D7%90'});
+   
+$('.first-blog-template .blog-articles__article:nth-child(4)').click(function(){
+  window.location = 'https://www.e-vrit.co.il/AuthorInterviewItem/271/%D7%A0%D7%99%D7%9C%D7%99_%D7%90%D7%A1%D7%99%D7%90'});
+   
+$('.first-blog-template .blog-articles__article:nth-child(5)').click(function(){
+  window.location = 'https://www.mako.co.il/news-tip12/body_and_spirit/Article-5e04a03f1c41281027.htm'});
+   
+$('.first-blog-template .blog-articles__article:nth-child(6)').click(function(){
+  window.location = 'https://nuritha.co.il/he/node/81532/critic#internal-8225'});
+   
+  
+  let queryString12 = window.location.search;
+ 
+if(queryString12.includes('page=1') ==  true){
+
+//Second blog page=1   
+$('.second-blog-template .blog-articles__article:nth-child(1)').click(function(){
+  window.location = 'https://www.ynet.co.il/laisha/article/skko2ntgs'});   
+   
+$('.second-blog-template .blog-articles__article:nth-child(2)').click(function(){
+  window.location = 'http://shlomitlica.co.il/2019/04/01/%D7%90%D7%97%D7%93-%D7%A7%D7%9C%D7%90%D7%A1%D7%99-%D7%95%D7%90%D7%97%D7%93-%D7%97%D7%93%D7%A9-%D7%94%D7%9E%D7%9C%D7%A6%D7%94-%D7%A2%D7%9C-%D7%A9%D7%A0%D7%99-%D7%A1%D7%A4%D7%A8%D7%99-%D7%9E%D7%AA/'});   
+
+$('.second-blog-template .blog-articles__article:nth-child(3)').click(function(){
+  window.location = 'https://www.writersblockg.com/%D7%A1%D7%A4%D7%A8%D7%99%D7%9D-%D7%97%D7%93%D7%A9%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%9E%D7%93%D7%A3-%D7%99%D7%A0%D7%95%D7%90%D7%A8-2019/'});   
+
+$('.second-blog-template .blog-articles__article:nth-child(4)').click(function(){
+  window.location = 'https://screenz.live/he/workshop/60a66abec0fc8901e2321aa9?link=promotion'});      
+  
+$('.second-blog-template .blog-articles__article:nth-child(5)').click(function(){
+  window.location = 'https://nuritha.co.il/he/node/64091'});     
+  
+  $('.second-blog-template .blog-articles__article:nth-child(6)').click(function(){
+  window.location = 'https://www.haaretz.co.il/literature/prose/2019-05-20/ty-article-review/.premium/0000017f-e67a-d97e-a37f-f77f26b30000'});   
+
+}
+
+if(queryString12.includes('page=2') ==  true){
+
+//Second blog page=2 
+$('.second-blog-template .blog-articles__article:nth-child(1)').click(function(){
+  window.location = 'https://www.haaretz.co.il/gallery/literature/2019-06-27/ty-article-magazine/.premium/0000017f-dfe6-d75c-a7ff-ffefcba90000'});   
+   
+$('.second-blog-template .blog-articles__article:nth-child(2)').click(function(){
+  window.location = 'https://zuckerstudio.com/blogs/news/nilly-assia-meet-the-writer'});   
+
+$('.second-blog-template .blog-articles__article:nth-child(3)').click(function(){
+  window.location = 'https://irisganor.com/4299/'});   
+
+$('.second-blog-template .blog-articles__article:nth-child(4)').click(function(){
+  window.location = 'https://www.pc.co.il/editorial/285521/'});      
+  
+}
+
+});
+}, 1000);
